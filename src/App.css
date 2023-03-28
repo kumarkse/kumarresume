@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a,button,li {
+  border: none;
+  list-style: none;
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+:root {
+  --Cl-Gug: linear-gradient(to bottom right, #00c4cc, #7d2ae8);
+}
+body{
+  transition: all 0.5 ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ----------------**left navbaar**----------- */
+
+.navbaar{
+  background-color: #2fbf71;
+  color: white;
+  border-radius: 4rem;
+  width:30rem;
+  position: fixed;
+  height: 62rem;
+  overflow: hidden;
+  margin-top: 7rem;
+  margin-left: 5vw;
+  padding: 3rem 1rem 0 3rem;
+}
+.navbaar .img{
+  background: url("./components/profile.jpg");
+  height: 9rem;
+  width: 9rem;
+  background-size: cover;
+  border-radius: 8rem;
+  border: 0.3rem solid white;
+}
+.name{
+  margin-top: 1.5rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.position{
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+i{
+  margin-right: 2rem;
+  align-items: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.navlink{
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+.navlink li{
+  padding: 1rem 0;
+}
+.navlink li:hover{
+  margin-left: 0.5rem;
+  transition: all .3s ease-in-out;
+}
+.social{
+  margin-top: 4rem;
+  font-size: 2.5rem;
+}
+
+/* ---------------------------**nav ends **---------------- */
+
+.firstintro{
+  background-color: #2fbf71;
+  border-radius: 4rem;
+  height: 60rem;
+  width: 60vw;
+  margin-top: 7rem;
+  padding: 4rem;
+}
+.right{
+  display: flex;
+  margin-left: 42rem;
+  margin-right: 5vw;
+}
+.firstpage{
+
 }
