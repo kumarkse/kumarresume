@@ -19,7 +19,6 @@ const Navbaar = () => {
       </ul>
     </div>
     <div className="social">
-    <a target="_blank" href="https://www.facebook.com/9136695725k"><i class="fa-brands fa-facebook"></i></a>
     <a target="_blank" href="https://github.com/kumarkse"><i class="fa-brands fa-github"></i></a>
     <a target="_blank" href="https://www.instagram.com/k.u.m.aa.r/"><i class="fa-brands fa-instagram"></i></a>
     <a target="_blank" href="https://www.linkedin.com/in/abhishektiwari2100/"><i class="fa-brands fa-linkedin"></i></a>
