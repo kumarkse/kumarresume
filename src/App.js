@@ -2,6 +2,7 @@ import Navbaar from './components/Navbaar';
 import './App.css';
 import Firstintro from './components/Firstintro';
 import Second from './components/Second';
+import Third from './components/Third';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <Navbaar />
     <Firstintro />
     <Second />
+    <Third />
 
     </>
   );

@@ -21,13 +21,15 @@ html {
 }
 :root {
   --Cl-Gug: linear-gradient(to bottom right, #00c4cc, #7d2ae8);
+  --purple:#9A208C;
 }
 body{
   transition: all 0.5 ease;
-  background-image: url("./components/webpack.png");
+  /* background-image: url("./components/webpack.png");
   background-attachment: fixed  ;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #dff8e0;
 }
 
 /* ----------------**left navbaar**----------- */
@@ -54,12 +56,12 @@ body{
 }
 .navbaar .name{
   margin-top: 1.5rem;
-  font-size: 2.8rem;
+  font-size: 28px;
   font-weight: 700;
 }
 .position{
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 300;
 }
 i{
@@ -71,7 +73,7 @@ ul{
   padding: 0;
 }
 .navlink{
-  font-size: 1.5rem;
+  font-size: 15px;
   margin-top: 3rem;
 }
 .navlink li{
@@ -83,14 +85,18 @@ ul{
 }
 .social{
   margin: 4rem;
-  font-size: 2.4rem;
+  font-size: 24px;
 }
 
 /* ---------------------------**nav ends **---------------- */
 .allright{
   background-color: #2fbf71;
+  
+  background: url(./components/bggreen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 4rem;
-  height: 80vh;
+  /* height: 60rem; */
   width: 70vw;
   margin-top: 7rem;
   margin-bottom: 7rem;
@@ -116,28 +122,28 @@ p{
   font-weight: 700;
 }
 .n1{
-  font-size: 2rem;
+  font-size: 20px;
 }
 .n2{
-    font-size: 6rem;
+    font-size: 60px;
 }
 .n3{
-  font-size: 2rem;
+  font-size: 20px;
   margin: 0;
 }
 .n4{
     /* width: 50%; */
-  font-size: 1.8rem;
+  font-size: 18px;
 }
 
 .cvbtn{
-  height: 4rem;
-  width: 16rem;
+  height: fit-content;
+  width: fit-content;
   padding: 0.5rem 1rem;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: 600;
   color: white;
-  background-color: #2fbf71;
+  background-color: transparent;
   border-radius: 0.8rem ;
   border: 0.1rem solid white;
   box-shadow: -0.4rem 0.4rem 0.1rem white;
@@ -152,7 +158,7 @@ p{
 }
 
 .hirebtn{
-  width: 12rem;
+  width: fit-content;
   margin-left: 5rem;
   box-shadow: 0.4rem 0.4rem 0.1rem white;
 }
@@ -177,17 +183,21 @@ p{
 
 .second{
   background-color: white;
+  background: url(./components/bgpurple.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
   padding: 5rem;
   color: black;
 }
 .second .heading{
   color: black;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 25px;
   position: relative;
 }
  .second .img{
-  background: url(https://i.pinimg.com/736x/c8/92/98/c8929824ff290d2bffb2210c1f036515.jpg);
+  background: url(https://cdni.iconscout.com/illustration/premium/thumb/boy-chatting-on-phone-5317642-4438797.png?f=webp);
   height: 20rem;
   width: 20rem;
   border-radius: 200%;
@@ -197,11 +207,12 @@ p{
   margin-top: 5rem;
 }
 .second .line{
-  background: #B8621B;
+  background: var(--purple);
   opacity: 100%;
   height: 0.5rem;
   border-radius: 5rem;
   width: 15rem;
+  border: 0;
 }
 .second .content{
   display: flex;
@@ -214,10 +225,10 @@ p{
   margin-left:5rem;
 }
 .data .title{
-  font-size: 4rem;
+  font-size: 40px;
 }
 .data .para{
-  font-size: 1.5rem;
+  font-size: 15px;
   width: 90%;
   margin-top: 2rem;
   word-wrap: break-word;
@@ -229,32 +240,126 @@ p{
 }
 .lefty{
   margin-left: 10rem;
-  font-size: 1.5rem;
+  font-size: 15px;
 }
 .dark{
-  color: #B8621B;
+  color: var(--purple);
+  font-weight: 500;
 }
 .light{
   color:black;
+  font-weight: 400;
 }
  .bttn{
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 15px;
   padding: 1rem;
   border-radius: 1rem;
-  color: #B8621B;
+  color: var(--purple);
   margin-top: 2rem;
-  border: 1px solid #B8621B;
+  border: 1px solid var(--purple);
   transition: all 0.5 ease-in-out;
+  font-weight: 600;
 }
 .bttn:hover{
-  box-shadow: 0 0.3rem 0   #B8621B;
+  box-shadow: 0 0.3rem 0   var(--purple);
 }
 .bttn:active{
   position: relative;
   top:0.3rem;
   box-shadow: none;
 }
+
+/* ----------------------------------third------------------ */
+.third{
+  background:url(./components/thirdbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  color: black;
+}
+.third .heading{
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+  position: relative;
+}
+.third .line{
+  background: #19376D;
+  opacity: 100%;
+  height: 0.5rem;
+  border-radius: 5rem;
+  width: 15rem;
+  border: 0;
+}
+
+.third .timeline{
+  max-width: 98%;
+  color: white;
+  font-size: 15px;
+}
+.third .container{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desc{
+  border-left: 4px solid #19376D;
+  position: relative;
+  padding:1rem 1rem 1rem 2rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.desc .data{
+  background-color:#355fb5;
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+  margin-left: 10rem;
+}
+.desc .circle{
+  background:black;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+  left: -6.5px;
+  color: black;
+  z-index: 10;
+}
+.circles{
+  position: absolute;
+  height:3rem;
+  width: 3rem;
+  top: 0;
+  left: 0px;
+  width: fit-content;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circles p{
+  padding: 2rem;
+}
+
+.timeline {
+  width: 60rem;
+  word-wrap: break-word;
+  margin: auto;
+}
+.container .student{
+  height: 38rem;
+  width: 18rem;
+  background: url(https://img.freepik.com/premium-vector/first-year-college-student-semi-flat-rgb-color-vector-illustration_106317-17588.jpg?w=360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2rem 2rem;
+}
+
 
 
 
@@ -284,7 +389,13 @@ p{
 }
 @media screen and (max-width:1220px) {
   /* html{
-    font-size: 50% ;
+    font-size: 53% ;
   } */
-  
+  .allright{
+    width: 100%;
+    margin: 5rem 5rem;
+  }
+  .navbaar{
+    visibility:hidden;
+  }
 }
