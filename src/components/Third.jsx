@@ -26,7 +26,7 @@ const Third = () => {
                 <h2>Diploma - ECE</h2>
                 <p>Pusa Institue Of Technology (PIT) </p>
                 <p>New Delhi</p>
-                <p>89.2%</p>{" "}
+                <p>89.2%</p>
               </div>
               <div className="circles">
                 <div className="circle"></div>
@@ -41,9 +41,9 @@ const Third = () => {
                 </p>
                 <p>New Delhi </p>
                 <p>Pursuing</p>
-              </div>
+              </div>  
               <div className="circles">
-                <div className="circle"></div>
+                <div className="circle" style={{background : "#19376D",border:"none"}}></div>
                 <p>April - 2019</p>
               </div>
             </li>

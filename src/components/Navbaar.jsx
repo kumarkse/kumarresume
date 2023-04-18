@@ -13,7 +13,7 @@ const Navbaar = () => {
         <a href="#"><li><i class="fa-solid fa-house"></i>Home</li></a>
         <a href="#"><li><i class="fa-solid fa-user"></i>About</li></a>
         <a href="#"><li><i class="fa-solid fa-landmark"></i>Education</li></a>
-        <a href="#"><li><i class="fa-solid fa-briefcase"></i>Resume</li></a>
+        <a href="#"><li><i class="fa-solid fa-briefcase"></i>Extra-Curricular</li></a>
         <a href="#"><li><i class="fa-solid fa-folder"></i>Projects</li></a>
         <a href="#"><li><i class="fa-solid fa-phone"></i>Contact</li></a>
       </ul>
