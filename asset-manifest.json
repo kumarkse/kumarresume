@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/kumarresume/static/css/main.a172f337.css",
-    "main.js": "/kumarresume/static/js/main.be51ea79.js",
+    "main.css": "/kumarresume/static/css/main.dc0e8915.css",
+    "main.js": "/kumarresume/static/js/main.03df1031.js",
     "static/js/787.dbde8076.chunk.js": "/kumarresume/static/js/787.dbde8076.chunk.js",
     "static/media/bgpurple.png": "/kumarresume/static/media/bgpurple.ceea149b048c810b9dbd.png",
     "static/media/thirdbg.png": "/kumarresume/static/media/thirdbg.253c9a35c9d113ce8204.png",
-    "static/media/bggreen.png": "/kumarresume/static/media/bggreen.ddf8d8abc128ce364863.png",
-    "static/media/study.png": "/kumarresume/static/media/study.6c6ff92340056f70daff.png",
     "static/media/profile.jpg": "/kumarresume/static/media/profile.41f99a45d7987fdb7725.jpg",
     "index.html": "/kumarresume/index.html",
-    "main.a172f337.css.map": "/kumarresume/static/css/main.a172f337.css.map",
-    "main.be51ea79.js.map": "/kumarresume/static/js/main.be51ea79.js.map",
+    "main.dc0e8915.css.map": "/kumarresume/static/css/main.dc0e8915.css.map",
+    "main.03df1031.js.map": "/kumarresume/static/js/main.03df1031.js.map",
     "787.dbde8076.chunk.js.map": "/kumarresume/static/js/787.dbde8076.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a172f337.css",
-    "static/js/main.be51ea79.js"
+    "static/css/main.dc0e8915.css",
+    "static/js/main.03df1031.js"
   ]
 }
