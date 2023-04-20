@@ -21,7 +21,7 @@ const Sixth = () => {
                 <div className="img"><i class="fa-solid fa-envelope"></i></div>
                 <div className="txt">
                     <p className="bolder">Email</p>
-                    <p>abhishektiwari200@outlook.com</p>
+                    <p>abhishektiwari2100@outlook.com</p>
                 </div>
             </div>
             <div className="location">
@@ -36,7 +36,7 @@ const Sixth = () => {
             <form action="" method="post" className='form'>
                 <div className="name">
                 <input type="text" name="fname" className='fname' placeholder='first name' />
-                <input type="text" name="fname" className='sname' placeholder='first name' />
+                <input type="text" name="fname" className='sname' placeholder='last name' />
                 </div>
                 <div>
                 <input type="email" name="email" id="" placeholder='E-mail' className='e-mail' />
@@ -44,7 +44,7 @@ const Sixth = () => {
                 <div>
                 <input type="text" name="subject" className="subject" placeholder='subject'/>
                 </div>
-                <textarea name="message" className="message" cols="40" rows="5"></textarea>
+                <textarea name="message" className="message" cols="40" rows="5" placeholder='enter your message'></textarea>
                 <div>
                 <button type="submit" className='buton'><i class="fa-solid fa-cloud-arrow-up"></i>Send message</button>
                 </div>
