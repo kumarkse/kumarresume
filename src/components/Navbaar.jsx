@@ -7,7 +7,7 @@ const Navbaar = () => {
     <div className="navbaar">
     <div className="img"></div>
     <div className="name">KUMAR ABHISHEK</div>
-    <div className="position">Web Developer</div>
+    <div className="position">Web Developer </div>
     <div className="navlink">
       <ul>
         <a href="#"><li><i class="fa-solid fa-house"></i>Home</li></a>

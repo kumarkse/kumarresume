@@ -12,13 +12,13 @@ const Fourth = () => {
             <div className="outer ast">
               <div className="inner">8/10</div>
             </div>
-            <div className="name">c/c++</div>
+            <div className="name">C / C++</div>
           </li>
           <li>
             <div className="outer dst">
               <div className="inner">9/10</div>
             </div>
-            <div className="name">Html/Css</div>
+            <div className="name">Html / Css</div>
           </li>
           <li>
             <div className="outer bst">
@@ -30,16 +30,17 @@ const Fourth = () => {
             <div className="outer cst">
               <div className="inner">8/10</div>
             </div>
-            <div className="name">mongoDb/SQL</div>
+            <div className="name">mongoDb / SQL</div>
           </li>
-          {/* <li className="more">
-          <div className="txt">
-            . . . Learning more
-
-            </div>
-          </li> */}
         </ul>
-        <div className="txt">*Full Stack Mern Developer</div>
+        <div className="rating">
+          <div className="dot"></div>
+          <p>1 - 5 Basics </p>
+          <div className="dot"></div>
+          <p>6 - 8 intermediate</p>
+          <div className="dot"></div>
+          <p>9 83- 10 Advance</p>
+        </div>
         </div>
     </div>
   );
