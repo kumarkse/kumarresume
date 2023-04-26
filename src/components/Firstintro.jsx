@@ -2,7 +2,8 @@ import React from 'react'
 
 const Firstintro = () => {
   return (
-    <div className='allright'>
+    <>
+    <div className='allright' id="first">
         <div className="firstintro">
           <div className="leftside">
           <p className="n1 bolder">Hi i'm</p>
@@ -20,6 +21,7 @@ const Firstintro = () => {
           </div>
         </div>
     </div>
+    </>
   )
 }
 

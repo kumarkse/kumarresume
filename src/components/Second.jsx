@@ -1,8 +1,11 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 const Second = () => {
   return (
-    <div className='second allright'> 
+    <BrowserRouter>
+    <div className='second allright' id='second'> 
     <div className="heading">
       About Me
     </div>
@@ -30,10 +33,15 @@ const Second = () => {
             <li className="dark">E-mail: <span className="light">abhishektiwari2100@gmail.com</span></li>
           </ul>
         </p>
-      <div ><button className="bttn"><i class="fa-solid fa-phone"></i>Contact me</button></div>
+        <HashLink to="#sixth" smooth>
+      <div >
+        <button className="bttn"><i class="fa-solid fa-phone"></i>Contact me</button>
+        </div>
+        </HashLink>
       </div>
       </div>
     </div>
+    </BrowserRouter>
   )
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Third = () => {
   return (
-    <div className="third allright">
+    <div className="third allright" id="third">
       <div className="heading">Qualification</div>
       <hr className="line" />
       <div className="container">

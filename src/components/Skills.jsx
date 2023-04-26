@@ -4,7 +4,7 @@ const Skills = (props) => {
   var colo = props.perc;
   console.log(colo);
   return (
-    <div className="skills ">
+    <div className="skills " >
       <div className="outer" >
 
         <div className="inner">

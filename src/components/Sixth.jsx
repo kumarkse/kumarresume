@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sixth = () => {
   return (
-    <div className="sixth allright">
+    <div className="sixth allright" id="sixth">
         <div className="heading">
             Get in Touch
         </div>
@@ -35,16 +35,16 @@ const Sixth = () => {
         <div className="right">
             <form action="" method="post" className='form'>
                 <div className="name">
-                <input type="text" name="fname" className='fname' placeholder='first name' />
-                <input type="text" name="fname" className='sname' placeholder='last name' />
+                <input type="text" name="fname" className='fname focu' placeholder='first name' />
+                <input type="text" name="fname" className='sname focu' placeholder='last name' />
                 </div>
                 <div>
-                <input type="email" name="email" id="" placeholder='E-mail' className='e-mail' />
+                <input type="email" name="email" id="" placeholder='E-mail' className='e-mail focu' />
                 </div>
                 <div>
-                <input type="text" name="subject" className="subject" placeholder='subject'/>
+                <input type="text" name="subject" className="subject focu" placeholder='subject'/>
                 </div>
-                <textarea name="message" className="message" cols="40" rows="5" placeholder='enter your message'></textarea>
+                <textarea name="message" className="message focu" cols="40" rows="5" placeholder='enter your message'></textarea>
                 <div>
                 <button type="submit" className='buton'><i class="fa-solid fa-cloud-arrow-up"></i>Send message</button>
                 </div>

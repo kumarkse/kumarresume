@@ -3,7 +3,7 @@ import Skills from "./Skills";
 
 const Fourth = () => {
   return (
-    <div className="fourth allright">
+    <div className="fourth allright" id="fourth">
       <div className="heading">Programming skills</div>
       <hr className="line" />
       <div className="skills">

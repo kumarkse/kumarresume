@@ -1,7 +1,7 @@
 .hello{
   color: #00c4cc;
 }
-* {
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,6 +21,7 @@ hr{
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
 }
 :root {
   --Cl-Gug: linear-gradient(to bottom right, #00c4cc, #7d2ae8);
@@ -44,19 +45,18 @@ body{
   justify-content: center;
   align-items: center;
 }
-
 /* ----------------**left navbaar**----------- */
 
 .navbaar{
   background-color: var(--blue);
   color: white;
   border-radius: 4rem;
-  width:30rem;
+  width:300px;
   position: fixed;
   height: fit-content;
   overflow: hidden;
-  margin-top: 7rem;
   margin-left: 15rem;
+  margin-top: 7rem;
   padding: 3rem 1rem 0 3rem;
 }
 .navbaar .img{
@@ -104,17 +104,56 @@ ul{
   height: 1rem;
   width: 1rem;
 }
+.mobile-navbar-btn .close{
+  display: none;
+}
+.active{
+  display: inline-block;
+  z-index: 100;
+}
+
+.mobile-navbar-btn{
+  /* margin: 100px 100px;   */
+  /* transition:  all 10s linear; */
+  width: 80%;
+  margin: 5rem auto;
+  background-color: #355fb5;
+  padding: 1rem 0.5rem;
+  font-size: 15px;
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 3rem;
+  color: white;
+  display: none;
+}
+.mobile-navbar-btn .name{
+  width: fit-content;
+}
+.mobile-navbar-btn .img{
+  
+  background: url("./components/profile.jpg");
+  height: 9rem;
+  width: 9rem;
+  background-size: cover;
+  border-radius: 8rem;
+  border: 0.3rem solid var(--pink);
+}
+.open,.close{
+  position: absolute;
+  right: 10px;
+  font-size: 50px;
+}
+
+
 
 /* ---------------------------**nav ends **---------------- */
 .allright{
   background-color: var(--blue);
-  
-  /* background: url(./components/bggreen.png); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  scroll-margin-top: 5rem;
   border-radius: 4rem;
-  /* height: 60rem; */
-  max-width: 60vw;
+  width: 60vw;
   margin-top: 7rem;
   margin-bottom: 7rem;
   padding: 2rem;
@@ -584,6 +623,10 @@ p{
   margin-top: 2rem;
   border: 1px solid var(--pink);
 }
+.focu:focus{
+  border: 1px solid var(--gray);
+  outline: none;
+}
 .buton{
   height: fit-content;
   width: fit-content;
@@ -599,84 +642,55 @@ p{
 
 /* ------------------**media start**----------- */
 
-@media screen and (max-width:1493px) {
-  html{
-    font-size: 58% ;
-  }
-  .allright{
-    width: 68vw;
-  }
-  
-}
-/* @media screen and (max-width:1400px) {
-  html{
-    font-size: 54% ;
-  }
-  
-} */
-@media screen and (max-width:1320px) {
-  html{
-    font-size: 54% ;
-  }
-  
-}
-@media screen and (max-width:1220px) {
-  /* html{
-    font-size: 53% ;
-  } */
-  .allright{
-    width: 100%;
-    margin: 5rem 5rem;
-  }
-  .navbaar{
-    visibility:hidden;
-  }
-}
+
 @media screen and (max-width:1024px) {
-  /* html{
-    font-size: 53% ;
-  } */
   .allright{
-    width: 80vw;
-    margin: 5rem 5rem;
+    /* width: 80vw; */
+    
+    margin-left:350px;
   }
   .navbaar{
-    display: none;
+    margin-left: 25px;
   }
 }
+/*
 @media screen and (max-width:768px) {
-  /* html{
+  html{
     font-size: 53% ;
-  } */
+  }
   .allright{
     width: 100%;
-    margin: 5rem 5rem;
   }
   .navbaar{
-    visibility:hidden;
+    display:none;
   }
 }
 @media screen and (max-width:425px) {
-  /* html{
+  html{
     font-size: 53% ;
-  } */
+  }
   .allright{
     width: 100%;
-    margin: 5rem 5rem;
   }
   .navbaar{
-    visibility:hidden;
+    display:none;
   }
-}
-@media screen and (max-width:320px) {
-  /* html{
-    font-size: 53% ;
-  } */
+} */
+@media screen and (max-width:768px) {
+  html{
+    font-size: 23% ;
+  }
   .allright{
-    width: 100%;
-    margin: 5rem 5rem;
+    width: 90%;
+    margin:7rem auto;
+  }
+  .mobile-navbar-btn{
+    display: flex;
   }
   .navbaar{
-    visibility:hidden;
+    display:none;
   }
-}
+  .active{
+    display: block;
+  }
+} 
