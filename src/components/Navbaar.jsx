@@ -40,7 +40,7 @@ const Navbaar = () => {
     <a target="_blank" href="https://github.com/kumarkse"><i class="fa-brands fa-github"></i></a>
     <a target="_blank" href="https://www.instagram.com/k.u.m.aa.r/"><i class="fa-brands fa-instagram"></i></a>
     <a target="_blank" href="https://www.linkedin.com/in/abhishektiwari2100/"><i class="fa-brands fa-linkedin"></i></a>
-    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    <a target="_blank" href="https://wa.me/8826077893"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
 
     </div>

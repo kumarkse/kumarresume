@@ -19,7 +19,8 @@ const Second = () => {
           Hello,
         </p>
         <p className="para">
-        I am Bako Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at wordpress. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quidem, quia a vero illo repellendus magni consequatur nulla suscipit dolorum accusamus! Dolores, non ullam tenetur possimus accusantium eveniet magnam facilis.   
+        I am Kumar Abhishek, web developer from Delhi , India. I have rich experience in web site design and building and customization, also I am good at wordpress.  I've honed my skills in both front-end and back-end development, working with a variety of programming languages and frameworks.
+        Currently aiming to pursue career in Data Science.
         </p>
         <p className="detail">
           <ul className="lefty">

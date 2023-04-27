@@ -1,6 +1,8 @@
 import React from 'react'
 import {FiCoffee} from "react-icons/fi"
 import {BiTimeFive} from "react-icons/bi"
+import {MdOutlineCloudDone} from 'react-icons/md'
+import {IoIosCodeWorking} from 'react-icons/io'
 const Extras = () => {
   return (
     <div className='allright extras' id='fifth'>
@@ -29,24 +31,24 @@ const Extras = () => {
             </li>
             <li>
                 <div className="icons flex">
-                    <FiCoffee />
+                    <MdOutlineCloudDone />
                 </div>
                 <div className="qty flex">
-                    2234
+                    1
                 </div>
                 <div className="des flex">
-                    Cups of Coffee
+                    Project completed
                 </div>
             </li>
             <li>
                 <div className="icons flex">
-                    <FiCoffee />
+                    <IoIosCodeWorking />
                 </div>
                 <div className="qty flex">
-                    2234
+                    2
                 </div>
                 <div className="des flex">
-                    Cups of Coffee
+                    Still working
                 </div>
             </li>
         </ul>

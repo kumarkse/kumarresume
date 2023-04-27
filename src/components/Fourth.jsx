@@ -39,7 +39,7 @@ const Fourth = () => {
           <div className="dot"></div>
           <p>6 - 8 intermediate</p>
           <div className="dot"></div>
-          <p>9 83- 10 Advance</p>
+          <p>9 - 10 Advance</p>
         </div>
         </div>
     </div>
