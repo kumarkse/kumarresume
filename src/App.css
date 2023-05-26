@@ -265,7 +265,7 @@ p{
   background: url(https://cdni.iconscout.com/illustration/premium/thumb/boy-chatting-on-phone-5317642-4438797.png?f=webp);
   height: 20rem;
   width: 20rem;
-  border-radius: 200%;
+  /* border-radius: 200%; */
   background-size: cover;
   background-repeat: no-repeat; 
   padding: 10rem;
@@ -314,7 +314,7 @@ p{
   font-weight: 500;
 }
 .light{
-  color:black;
+  color:var(--gray);
   font-weight: 400;
 }
  .bttn{
@@ -391,7 +391,7 @@ p{
   height: 1rem;
   width: 1rem;
   border-radius: 2rem;
-  border: 2px solid #19376D;
+  border: 2px solid #355fb5;
   position: absolute;
   top: 0;
   left: -6.5px;
@@ -653,9 +653,64 @@ p{
     /* width: 80vw; */
     
     margin-left:350px;
+    padding: 2rem;
   }
   .navbaar{
     margin-left: 25px;
+  }
+  .rightside .img{
+    
+  height: 30rem;
+  width: 30rem;
+  margin: auto;
+  }
+  .rightside{
+    margin-left: 0px;
+    margin: auto;
+  }
+  .n1,.n2,.n3,.n4{
+    text-align: center;
+  }
+  /* ----------------------- */
+  .second .img{
+    height: 40rem;
+  width: 30rem;
+  right: 20px;
+  background-position-x: -50px;
+  margin: auto;
+  }
+  .second .content{
+    margin: auto;
+  }
+  .data .para,.data .title{
+    text-align: center;
+  }
+  .data .detail{
+    display: block;
+    text-align: left;
+  }
+  /* ------------------------- */
+  .extras .des {
+    font-size: 17px;
+  }
+  /* ---------------------------------- */
+  .third{
+    background-position-x: -200px;
+  }
+  .container .student{
+    background-position-x: -19px;
+  }
+  .desc .data{
+    font-size: 15px;
+    padding: 1.5rem;
+    
+  }
+  .third h2{
+    font-size: 15px;
+  }
+  /* -------------------- */
+  .sixth .section{
+    margin: auto;
   }
 }
 /*
@@ -672,7 +727,7 @@ p{
 }*/
 @media screen and (max-width:768px) {
   html{
-    font-size: 23% ;
+    font-size: 30% ;
   }
   .allright{
     width: 90%;
@@ -687,6 +742,8 @@ p{
   .active{
     display: block;
   }
+
+
 } 
 @media screen and (max-width:426px) {
   .allright{

@@ -46,7 +46,7 @@ const Sixth = () => {
             method="POST"
             className="form"
             id="form"
-            onSubmit={() => reseter()}
+            // onSubmit={() => reseter()}
           >
 
             <div className="name">
@@ -54,13 +54,14 @@ const Sixth = () => {
                 type="text"
                 name="fname"
                 className="fname focu"
-                placeholder="first name"
+                placeholder="First name"
+                required
               />
               <input
                 type="text"
                 name="lname"
                 className="sname focu"
-                placeholder="last name"
+                placeholder="Last name"
               />
             </div>
             <div>

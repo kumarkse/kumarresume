@@ -32,6 +32,12 @@ const Fourth = () => {
             </div>
             <div className="name">mongoDb / SQL</div>
           </li>
+          <li>
+            <div className="outer cst">
+              <div className="inner">8/10</div>
+            </div>
+            <div className="name">DSA / Problem solving</div>
+          </li>
         </ul>
         <div className="rating">
           <div className="dot"></div>

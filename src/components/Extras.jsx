@@ -12,7 +12,7 @@ const Extras = () => {
                     <FiCoffee />
                 </div>
                 <div className="qty flex">
-                    2234
+                    56
                 </div>
                 <div className="des flex">
                     Cups of Coffee
