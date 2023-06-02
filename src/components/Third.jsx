@@ -18,7 +18,7 @@ const Third = () => {
               </div>
               <div className="circles">
                 <div className="circle"></div>
-                <p>April - 2019</p>
+                <p>2018 - 2019</p>
               </div>
             </li>
             <li className="desc">
@@ -44,7 +44,7 @@ const Third = () => {
               </div>  
               <div className="circles">
                 <div className="circle" style={{background : "#19376D",border:"none"}}></div>
-                <p>April - 2019</p>
+                <p>2022 - 25</p>
               </div>
             </li>
           </ul>

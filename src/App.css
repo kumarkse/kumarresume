@@ -60,6 +60,7 @@ body{
   overflow: hidden;
   margin-left: 15rem;
   padding: 3rem 1rem 0 3rem;
+  transition: all 5s ease-in-out;
 }
 .navbaar .img{
   background: url(https://img.freepik.com/premium-vector/young-man-face-cartoon_18591-59097.jpg?w=360);
@@ -329,7 +330,7 @@ p{
   color: var(--pink);
   margin-top: 2rem;
   border: 1px solid var(--pink);
-  transition: all 0.5 ease-in-out;
+  transition: all 0.5s ease-in-out;
   font-weight: 600;
 }
 .bttn:hover{
@@ -665,9 +666,9 @@ p{
   }
   .rightside .img{
     
-  height: 30rem;
-  width: 30rem;
-  margin: auto;
+    height: 30rem;
+    width: 30rem;
+    margin: auto;
   }
   .rightside{
     margin-left: 0px;
@@ -675,6 +676,11 @@ p{
   }
   .n1,.n2,.n3,.n4{
     text-align: center;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* ----------------------- */
   .second .img{
@@ -820,17 +826,94 @@ p{
 
 } 
 @media screen and (max-width:426px) {
+  html{
+    font-size: 30%;
+  }
+  .active{
+    margin: auto;
+  }
   .allright{
     width: 90%;
     margin:7rem auto;
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+  .navbaar .img{
+    border:3px solid var(--pink);
+  }
+
+  .mobile-navbar-btn .img {
+    height: 50px;
+    width: 50px;
+    border: 3px solid var(--pink);
+}
+.open , .close{
+  font-size: 20px;
+  margin-right: 10px;
+}
+  .firstintro{
+    display: flex;
+    flex-wrap: wrap;
   }
   .mobile-navbar-btn{
     display: flex;
   }
-  .navbaar{
-    display:none;
+  .second .img{
+    background-position-x: 0;
+    width: 200px;
   }
-  .active{
-    display: block;
+  .content{
+    display: flex;
+    flex-wrap: wrap;
   }
+  .bttn{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+  .desc .data{
+    font-size: 10px;
+  }
+  .desc .circle{
+    height: 8px;
+    width: 8px;
+  }
+  .circles{
+    font-size: 10px;
+  }
+  .skills .outer {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin: auto;
+}
+  .skills .inner{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    line-height: 70px;
+    font-size: 20px;
+}
+  .skills li{
+    width: 120px;
+  }
+  .rating{
+    font-size: 12px;
+  }
+
+  /* ----------------- */
+  .extras .icons {
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+}
+.extras .qty{
+  font-size: 25px;
+}
+.extras .des{
+  font-size: 11px;
+}
+.sixth .right{
+  padding: 20px;
+}
 } 
