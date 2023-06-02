@@ -1,3 +1,5 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
 .hello{
   color: #00c4cc;
 }
@@ -31,6 +33,7 @@ html {
   --gray:#616060;
 }
 body{
+  font-family: 'Titillium Web', sans-serif;
   transition: all 0.5 ease;
   background-color: #f6f7ff;
 }
@@ -114,14 +117,14 @@ ul{
 .mobile-navbar-btn{
   /* margin: 100px 100px;   */
   /* transition:  all 10s linear; */
-  width: 80%;
+  width: 60%;
   margin: 5rem auto;
   background-color: #355fb5;
   padding: 1rem 0.5rem;
   font-size: 15px;
   position: relative;
   display: flex;
-  /* justify-content: center; */
+   justify-content: center; 
   align-items: center;
   gap: 3rem;
   color: white;
@@ -140,9 +143,10 @@ ul{
   border: 0.3rem solid var(--pink);
 }
 .open,.close{
-  position: absolute;
-  right: 10px;
   font-size: 50px;
+}
+.name{
+  font-size: 20px;
 }
 
 
@@ -382,7 +386,8 @@ p{
 .desc .data{
   background-color:#355fb5;
   padding: 2rem;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
+  border-radius: 2rem 2rem 9rem 9rem;
   text-align: center;
   margin-left: 10rem;
 }
@@ -713,25 +718,12 @@ p{
     margin: auto;
   }
 }
-/*
+
+
+
 @media screen and (max-width:768px) {
   html{
-    font-size: 53% ;
-  }
-  .allright{
-    width: 100%;
-  }
-  .navbaar{
-    display:none;
-  }
-}*/
-@media screen and (max-width:768px) {
-  html{
-    font-size: 30% ;
-  }
-  .allright{
-    width: 90%;
-    margin:7rem auto;
+    font-size: 50% ;
   }
   .mobile-navbar-btn{
     display: flex;
@@ -739,9 +731,91 @@ p{
   .navbaar{
     display:none;
   }
-  .active{
+  .active {
     display: block;
+    background: rgba(255, 255, 255, 0.045);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    width: 80vw;
+    left: 50px;
   }
+  .navlink li{
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 700;
+  margin: 5px 20px;
+}
+.mobile-navbar-btn {
+    display: flex;
+    padding: 2rem;
+    border-radius: 50px;
+    gap:90px;
+    transition-delay: 2s;
+    width: fit-content;
+  }
+  .mobile-navbar-btn .img{
+    
+    height: 70px;
+    width: 70px;
+    border: 3px solid var(--pink);
+  }
+  .mobile-navbar-btn .name{
+    font-size: 25px;
+    font-weight:600;
+  }
+  .social {
+    display: flex;
+    margin: 4rem;
+    font-size: 29px;
+    justify-content: space-evenly;
+    background-color: #0000ff38;
+    border-radius: 20px;
+}
+.navbaar .img{
+  height: 19rem;
+  width: 19rem;
+}
+
+.fa-solid{
+  margin-right: 20px;
+}
+/* ---------- */
+.allright{
+  width: 90%;
+  margin:7rem auto;
+  padding: 3rem;
+}
+.rightside .img{
+  height: 250px;
+  width: 250px;
+}
+.n2{
+  font-size: 45px;
+}
+.skills li {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px 15px;
+}
+.desc .circle{
+  left: -6px;
+}
+.skills li {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px 15px;
+}
+/* ------------------ */
+.extras .icons {
+  background-color: var(--pink);
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  font-size: 40px;
+}
+
+
 
 
 } 

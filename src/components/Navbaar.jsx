@@ -12,7 +12,7 @@ const Navbaar = () => {
     <>
     <div className="mobile-navbar-btn " >
     <div className="img"></div>
-    <div className="name">KUMAR ABHISHEK</div>
+    <div className="name">BONJOUR !!</div>
           <CgMenu name="nav-open" className="open" style={menu? stile: nulled}
             onClick={() => setMenu(true)}
             />
@@ -32,7 +32,7 @@ const Navbaar = () => {
         <HashLink to="#second" onClick={() => setMenu(false)}><li><i class="fa-solid fa-user"></i>About</li></HashLink>
         <HashLink to="#third" onClick={() => setMenu(false)}><li><i class="fa-solid fa-landmark"></i>Education</li></HashLink>
         <HashLink to="#fourth" onClick={() => setMenu(false)}><li><i class="fa-solid fa-briefcase"></i>Programming-Skills</li></HashLink>
-        <HashLink to="#fifth" onClick={() => setMenu(false)}><li><i class="fa-solid fa-folder"></i>Projects</li></HashLink>
+        {/* <HashLink to="#fifth" onClick={() => setMenu(false)}><li><i class="fa-solid fa-folder"></i>Projects</li></HashLink> */}
         <HashLink to="#sixth" onClick={() => setMenu(false)}><li><i class="fa-solid fa-phone"></i>Contact</li></HashLink>
       </ul>
     </div>
