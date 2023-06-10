@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Firstintro = () => {
   return (
     <>
@@ -13,7 +12,7 @@ const Firstintro = () => {
 Skilled in developing responsive and mobile-friendly websites. Passion for staying up-to-date with the latest web development trends and technologies.
 </p>
           <div className="button">
-          <button className="cvbtn"><i class="fa-solid fa-download"></i>Download CV</button>
+          <a target = '_blank' href='https://drive.google.com/file/d/180tNHloSmYyGdAldc9HkTD56mvlwaobS/view?usp=sharing' download='kumar_resume'><button className="cvbtn"><i class="fa-solid fa-download"></i>View Resume</button></a>
           {/* <button className="hirebtn cvbtn"><i class="fa-solid fa-download"></i>Hire-me</button> */}
           </div>
             
