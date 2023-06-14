@@ -8,8 +8,12 @@ import Fourth from './components/Fourth';
 import Extras from './components/Extras';
 
 function App() {
+  // function intro(){
+  //   setTimeout()
+  // }
   return (
     <>
+    {/* <div id="preload"></div> */}
     <Navbaar />
     <Firstintro />
     <Second />

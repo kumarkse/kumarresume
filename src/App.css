@@ -48,6 +48,16 @@ body{
   justify-content: center;
   align-items: center;
 }
+/* ------------preloader----------- */
+/* 
+#preload{
+  height: 120vh;
+  width: 100%;
+  background-color: #fff ;
+  position: fixed;
+  z-index: 100;
+} */
+
 /* ----------------**left navbaar**----------- */
 
 .navbaar{
